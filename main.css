@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url('./images/AdobeStock_370247833.jpeg');
+    background-size:cover;
+}
+
+body section{
+    max-width: 1360px;
+    width: 100%;
+    margin: 120px auto;
+    text-align: center;
+}
+
+body section h1{
+    color: rgb(52, 24, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:inherit;
+    font-size:xx-large;
+}
+
+input, button{
+    outline: 0;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    padding: 6px 4px;
+    max-width: 400px;
+    width: 100%;
+}
+
+#complemento, #numero-casa {
+    display: inline;
+    width: 198px;
+}
+
+
+button {
+    background-color: rgb(242, 87, 48);
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(239, 31, 3);
+}
+
